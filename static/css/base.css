@@ -1,12 +1,24 @@
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
+
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
 }
 header {
     border-bottom: 1px solid #999;
     margin-bottom: 2rem;
     display: flex;
 }
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/static/lamarzoco.jfif");
+    min-height: 75%;
+    height: 100%;
+  }
+  
+  .menu {
+    display: none;
+  }
 header h1 a {
     color: red;
     text-decoration: none;
