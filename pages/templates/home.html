@@ -3,9 +3,9 @@
 {% block content %}
 {% for post in post_list %}
 <div class="post-entry">
-    <h4>{{ post.timestamp }}</h2>
-    <h4>{{ post.updated}}</h2>
+    <!--<h6>{{ post.updated}}</h6>-->
     <h2>{{ post.title }}</h2>
+    <h6>{{ post.timestamp }}</h6>
     <h3>{{ post.author }}</h3>
     <p>{{ post.text }}</p>
 </div>
